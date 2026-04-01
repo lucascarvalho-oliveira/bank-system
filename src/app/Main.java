@@ -108,7 +108,9 @@ public class Main {
                             } while (!sair);
 
                         } catch (IllegalArgumentException e) {
+                            System.out.println();
                             System.out.println(e.getMessage());
+                            System.out.println();
                         }
                         break;
 
