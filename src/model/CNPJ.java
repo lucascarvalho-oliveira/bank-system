@@ -1,4 +1,4 @@
-package service;
+package model;
 
 public class CNPJ {
     private final String cnpj;

@@ -1,19 +1,15 @@
 package model;
 
-import service.Conta;
-
 public abstract class Pessoa {
     protected String nome;
-    protected String senha;
     protected Conta conta;
 
-    public Pessoa(String nome, String senha, Conta conta){
+    public Pessoa(String nome, Conta conta){
         if(nome == null || nome.trim().isEmpty()){
             throw new IllegalArgumentException("Nome invalido.");
         }
 
         this.nome = nome;
-        this.senha = senha;
         this.conta = conta;
     }
 
@@ -22,4 +18,6 @@ public abstract class Pessoa {
     }
 
     public abstract String getDocumento();
+
+    public abstract Senha getSenha();
 }
