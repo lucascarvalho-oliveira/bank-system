@@ -1,9 +1,8 @@
 <p align="center">
-  <a href="./README.en.md">
+  <a href="./docs/README.en.md">
     <img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge">
   </a>
 </p>
-
 # Bank System (Java)
 
 Projeto de estudo desenvolvido em Java com foco em Programação Orientada a Objetos (POO) e estruturação em camadas.
